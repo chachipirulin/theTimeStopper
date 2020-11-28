@@ -1,0 +1,104 @@
+
+
+Electric bass/clunk NOTES
+
+NOTE  DURATION
+
+WATCH OUT! THE TOTAL OF ALL SEQ MUST BE THE SAME!!!
+ALL IN THE LOWEST WELL-SOUNDING OCTAVE
+
+SEQUENCE 1 
+D	0.85
+G	0.85
+A	5.150
+D	8.57
+D	4.3
+TOTAL = 19.72 s
+
+SEQUENCE 2
+G	1.71
+E	1.71
+F#	8.57
+D	7.71
+TOTAL = 19.7 s
+
+_____________________________________________________
+
+SEQ1
+////////////////////OCT4
+      wavetable.playFrequency(73.4161919794);//D
+      wavetable.amplitude(0.5);
+      delay(850);
+      wavetable.stop();
+      wavetable.playFrequency(97.9988589954);//G
+      wavetable.amplitude(0.5);
+      delay(850);
+      wavetable.stop();
+      wavetable.playFrequency(110.0000000000);//A
+      wavetable.amplitude(0.5);
+      delay(5150);
+      wavetable.stop();
+      wavetable.playFrequency(73.4161919794);//D
+      wavetable.amplitude(1);
+      delay(8570);
+      wavetable.stop();
+      wavetable.playFrequency(73.4161919794);//D
+      wavetable.amplitude(0.5);
+      delay(4300);
+      wavetable.stop();
+////////////////////OCT5
+      wavetable.playFrequency(146.8323839587 );//D
+      wavetable.amplitude(0.5);
+      delay(850);
+      wavetable.stop();
+      wavetable.playFrequency(195.9977179909);//G
+      wavetable.amplitude(0.5);
+      delay(850);
+      wavetable.stop();
+      wavetable.playFrequency(220.0000000000 );//A
+      wavetable.amplitude(0.5);
+      delay(5150);
+      wavetable.stop();
+      wavetable.playFrequency(146.8323839587 );//D
+      wavetable.amplitude(1);
+      delay(8570);
+      wavetable.stop();
+      wavetable.playFrequency(146.8323839587 );//D
+      wavetable.amplitude(0.5);
+      delay(4300);
+      wavetable.stop();
+
+_____________________________________________________
+
+SEQ2
+////////////////////OCT4
+////////////////////OCT5
+      wavetable.playFrequency(146.8323839587 );//D
+      delay(850);
+      wavetable.stop();
+      wavetable.playFrequency(195.9977179909);//G
+      delay(850);
+      wavetable.stop();
+      wavetable.playFrequency(220.0000000000 );//A
+      delay(5150);
+      wavetable.stop();
+      wavetable.playFrequency(146.8323839587 );//D
+      delay(8570);
+      wavetable.stop();
+      wavetable.playFrequency(146.8323839587 );//D
+      delay(4300);
+      wavetable.stop();
+_____________________________________________________
+Note     Frequency      Note   Frequency       Note   Frequency
+ C1  0    8.1757989156    12    16.3515978313    24    32.7031956626
+ Db  1    8.6619572180    13    17.3239144361    25    34.6478288721
+ D   2    9.1770239974    14    18.3540479948    26    36.7080959897
+ Eb  3    9.7227182413    15    19.4454364826    27    38.8908729653
+ E   4   10.3008611535    16    20.6017223071    28    41.2034446141
+ F   5   10.9133822323    17    21.8267644646    29    43.6535289291
+ Gb  6   11.5623257097    18    23.1246514195    30    46.2493028390
+ G   7   12.2498573744    19    24.4997147489    31    48.9994294977
+ Ab  8   12.9782717994    20    25.9565435987    32    51.9130871975
+ A   9   13.7500000000    21    27.5000000000    33    55.0000000000
+ Bb  10  14.5676175474    22    29.1352350949    34    58.2704701898
+ B   11  15.4338531643    23    30.8677063285    35    61.7354126570
